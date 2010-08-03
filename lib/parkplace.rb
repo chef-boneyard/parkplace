@@ -1,3 +1,11 @@
+# Tim added 8/3/2010 -- these requires are necessary for the continuous
+# integration server to work. I'm not sure why it works correctly without
+# these requires on development machines, but I don't have time to figure
+# it out
+require 'metaid' # tim added
+require 'active_record'
+# end Tim added
+
 require 'rubygems'
 require 'camping'
 require 'camping/session'
